@@ -1,5 +1,9 @@
 $font-color: #FFF;
+$background: grey;
 
+#copyrights {
+  background:$background;
+}
 
 a.social-icon.si-colored:hover {
   text-decoration:none;
@@ -43,23 +47,4 @@ a.social-icon.si-colored {
   float:none !important;
   justify-content:center;
   position:relative;
-}
-
-#sub-copyright .finance-text {
-  font-family: 'Open Sans', sans-serif;
-  margin-right:10px;
-}
-#sub-copyright {
-  background:#FFF;
-  padding:10px 0;
-}
-
-#copyright {
-  font-family:'Roboto Condensed', sans-serif;
-  font-weight:300;
-  font-size:14px;
-}
-
-#copyrights {
-  background-color: #3C4109;
 }

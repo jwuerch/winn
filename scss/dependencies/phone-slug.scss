@@ -1,7 +1,7 @@
 /** PHONE SLUG **/
 
-$background: #EDE7D0;
-$text-color: #3A3F09;
+$background: blue;
+$text-color: #FFF;
 $phone-color: #FFF;
 
 
@@ -11,38 +11,34 @@ $phone-color: #FFF;
   padding-bottom:0px;
 }
 .phone-slug h6 {
-  font-size:17px;
+  font-size:18px;
   color:$text-color;
   line-height:19px;
   font-weight:400;
-  margin-bottom:10px;
-  font-family: 'Open Sans', sans-serif;
+  margin-bottom:4px;
 }
 .phone-slug .new-hotline {
   font-size:36px;
-  font-weight:900;
+  font-weight:700;
   line-height:25px;
 }
 .phone-slug .new-hotline a {
-  color:#3A3F09;
-  font-size:36px;
-  font-weight:700;
+  color:$phone-color;
 }
 .device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
-  margin-bottom:30px;
+  margin-bottom:20px;
 }
 .phone-slug .old-hotline {
-  font-size:17px;
-  color:#3A3F09;
-  margin-top:5px;
-  font-family:'Open Sans', sans-serif;
+  font-size:21px;
+  color:#FFF;
+  margin-top:15px;
 }
 .phone-slug .old-hotline a {
-  color:#3A3F09;
-  font-weight:900;
-  font-size:20px;
+  color:$phone-color;
+  font-weight:700;
 }
 .phone-slug  .col-sm-6.tleft {
+  border-left:1px solid #FFF;
 }
 .phone-slug .button {
   margin:2.5px 0;
@@ -64,102 +60,11 @@ $phone-color: #FFF;
 }
 .device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
   text-align:center !important;
-
+  border-left:none;
 }
 
 .device-xs .old-hotline, .device-xxs .old-hotline {
   font-size:24px;
   font-weight:300;
   line-height:35px !important;
-}
-
-.phone-slug .col-sm-6.tleft {
-  transform: translateY(25%);
-}
-#phone-slug-1 {
-  border-bottom:3px solid #FFF;
-}
-
-.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
-  font-size:16px;
-  font-weight:400;
-  margin-bottom:5px;
-}
-
-.device-xs .phone-slug .old-hotline a, .device-xxs .phone-slug .old-hotline a {
-  font-size:21px;
-
-}
-.device-xs .phone-slug .old-hotline, .device-xxs .phone-slug .old-hotline {
-  font-size:16px;
-  font-weight:400;
-  line-height:22px !important;
-
-}
-
-.device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
-  margin-bottom:50px;
-}
-
-.device-xs #specials-below h6, .device-xxs #specials-below h6 {
-  text-align:center !important;
-}
-.device-xs #specials-below .new-hotline, .device-xxs #specials-below .new-hotline {
-  text-align:center;
-}
-.device-xs #specials-below .button, .device-xxs #specials-below .button {
-  font-size:18px;
-  padding-left:35px;
-  padding-right:35px;
-}
-.device-xs #specials-below .tleft, .device-xxs #specials-below .tleft {
-  text-align:center !important;
-  margin-bottom:40px;
-  margin-top:30px;
-}
-
-.device-xs #specials-below .old-hotline, .device-xxs #specials-below .old-hotline  {
-  line-height:22px !important;
-  font-weight:400;
-}
-
-.device-xs #specials-below .old-hotline a, .device-xxs #specials-below .old-hotline a {
-  font-size:21px;
-}
-
-.phone-slug .button {
-  padding-left:25px;
-  padding-right:25px;
-}
-
-.phone-slug .new-hotline a:hover, .phone-slug .old-hotline a:hover {
-  text-decoration:none !important;
-}
-.one-page-arrow:hover i {
-  color:#222;
-}
-
-.device-xs, .device-xxs {
-  .phone-slug {
-    .new-hotline {
-      margin-bottom:5px;
-    }
-  }
-  #phone-slug-1 > div > div > div.col-sm-6.tleft {
-    margin-bottom:25px;
-  }
-  #specials-below .new-hotline {
-    margin-bottom:-25px;
-  }
-  #specials-below .button {
-    margin-bottom:-70px;
-  }
-  #specials-below .old-hotline {
-    margin-top:-10px;
-  }
-}
-.device-sm, .device-md, .device-lg {
-  #specials-below .new-hotline {
-    margin-bottom:-10px;
-  }
 }

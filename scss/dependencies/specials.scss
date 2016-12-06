@@ -1,5 +1,6 @@
 /** SPECIALS **/
 
+$section-background:gray;
 $h2-color: #674C12;
 $specials-1-color: #E59908;
 $specials-2-color: #106547;
@@ -9,8 +10,9 @@ $p-color: red;
 
 
 .section-specials {
-  padding-top:0px;
+  padding-top:50px;
   padding-bottom:20px;
+  background:$section-background;
   background-size:cover;
 }
 .section-specials h2 {
@@ -22,49 +24,50 @@ $p-color: red;
 }
 
 .specials-1 {
+  background: $specials-1-color;
   color: $specials-1-color;
-  background:#A68A00;
 }
-
+.specials-1.specials-circle {
+  background: $specials-1-color;
+}
 .specials-2 {
+  background: $specials-2-color;
   color: $specials-2-color;
-  background:#3B7030;
 }
 .specials-2.specials-circle {
+  background: $specials-2-color;
 }
 
 .specials-3 {
-  color: #E87500;
-  background:#E87500;
+  background: $specials-3-color;
+  color: $specials-3-color;
 }
 .specials-3.specials-circle {
-  background: #E87500;
+  background: $specials-3-color;
 }
 .specials-row h5 {
   font-size:36px;
   color:#FFF;
-  font-weight:900;
+  font-weight:800;
   line-height:40px !important;
 
 }
 .specials-row p {
-  color:#FFF;
+  color:$p-color;
   font-size:18px;
   margin-bottom:0px;
   line-height:25px !important;
   margin-top:20px;
   margin-bottom:10px;
-  font-family:'Open Sans', sans-serif;
 }
 .specials-label {
-  font-weight:400;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: #FFFFFF;
+  font-size:14px;
+  color:$p-color;
 }
 .specials-save {
   font-size:18px;
   text-transform:uppercase;
+  background:none;
   font-family:$save-font-family;
   font-weight:400;
 }
@@ -74,6 +77,7 @@ $p-color: red;
   margin-left:20px;
   margin-right:20px;
   padding-bottom:20px;
+  background:#FFF;
   margin-bottom:50px;
   opacity:.85
 }
@@ -89,34 +93,29 @@ $p-color: red;
   height:196px;
   padding-top:15px;
   border-radius:8px 8px 0px 0px;
-  background:none;
 }
 .specials-circle {
   position:relative;
-  width:165px;
-  height:165px;
+  border:7px solid #FFF;
+  width:146px;
+  height:146px;
   border-radius:50%;
   top:-73px;
   margin:0 auto;
   margin-bottom:-73px;
 }
 .specials-bottom {
-  padding-top:20px;
+  padding-top:10px;
   padding-left:12.5px;
   padding-right:12.5px;
 }
 .specials-save {
   font-size:18px;
-  background:none;
-  color:#FFF;
-  font-family:'Lato', sans-serif;
-  font-weight:700;
 }
 .price {
-  font-size:100px;
+  font-size:84px;
   color:#FFF;
   font-weight:700;
-  font-family:'Open Sans', sans-serif;
 }
 .dollar {
   font-size:36px;
@@ -124,7 +123,6 @@ $p-color: red;
   top:-37.5px;
   font-family: 'Lato', sans-serif;
   position:relative;
-  font-weight:400;
 
 }
 
@@ -155,51 +153,4 @@ $p-color: red;
 }
 .device-xs .section-specials .col-xs-12 p, .device-xxs .section-specials .col-xs-12 p {
   line-height:40px !important;
-}
-
-#specials-top h3 {
-  color:#DFC54B;
-  font-weight:700;
-  margin-bottom:0;
-}
-#specials-top h5 {
-  font-family:'Open Sans', sans-serif;
-  color:#FFF;
-  font-weight:400;
-  margin-bottom:0;
-}
-#specials-top {
-  padding-top:10px;
-  height:145px;
-  border-top:3px solid #FFF;
-  background:#3C4109;
-}
-
-#specials {
-  background-image:url('../images/specials-BG.jpg');
-}
-
-#specials > div > div > div:nth-child(3) > div.specials-3.specials-circle > span.price {
-  font-size:75px !important;
-  letter-spacing:-2px !important;
-  top:20px;
-  left:-2px;
-  position:relative;
-}
-
-#specials > div > div > div:nth-child(3) > div.specials-3.specials-circle > span.dollar {
-  left:-2px;
-  top:-13px !important;
-}
-
-.device-xxs #specials-top {
-  height:210px;
-}
-
-.device-xxs #specials-top h3 {
-  line-height:35px;
-  margin-bottom:20px;
-}
-.device-xxs #specials-top h5 {
-  line-height:30px;
 }
