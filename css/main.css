@@ -26174,6 +26174,15 @@ h4.modal-title {
     color: #304BA0;
     margin-bottom: 20px; }
 
+#slide-2 {
+  background-position: 100% 100%; }
+  #slide-2 .icon-star3 {
+    color: #F5E82E;
+    font-size: 48px;
+    text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5) !important; }
+  #slide-2 .slider-caption {
+    margin-top: -75px; }
+
 body {
   font-family: "Lato", sans-serif; }
 
