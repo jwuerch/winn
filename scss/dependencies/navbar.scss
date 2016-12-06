@@ -1,0 +1,60 @@
+.navbar li > a {
+  color:#707070;
+  font-size:18px;
+  font-family: 'Open Sans', sans-serif;
+}
+.device-md .navbar li > a {
+  font-size:16px;
+}
+.navbar > li:nth-child(1) > a {
+  font-weight:700;
+  color:#EE7800;
+}
+.navbar > li:nth-child(2) > a {
+  font-weight:700;
+  color:#72612B;
+}
+
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, #logo img {
+    height:550px;
+    position:fixed;
+    top:35px;
+    margin-left:30px;
+    top:-190px;
+    z-index:-1;
+}
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap {
+  height:100px;
+}
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+  padding-top:39px;
+  padding-bottom:39px;
+}
+
+#primary-menu-trigger {
+  color:#4E5507;
+  font-size:25px;
+}
+@media (max-width:991px) {
+  #primary-menu-trigger {
+    right:0;
+    left:inherit;
+  }
+}
+.device-sm #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, .device-sm #logo img, .device-xs #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, .device-xs #logo img, .device-xxs #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, .device-xxs #logo img {
+  position:absolute;
+  left:0;
+}
+
+.device-sm #header.full-header #primary-menu > ul, .device-xs #header.full-header #primary-menu > ul , .device-xxs #header.full-header #primary-menu > ul  {
+  margin-top:20px !important;
+}
+body.stretched #header.full-header .container {
+  padding:0;
+}
+
+
+.device-sm #logo img, .device-xs #logo img, .device-xxs #logo img {
+  margin-left:0;
+}
+

@@ -1,0 +1,35 @@
+/* Service Modals */
+
+#services a:hover {
+  text-decoration:none;
+}
+
+.service-modal .modal-body, .service-modal .modal-header {
+  background:#FFF;
+}
+.service-modal h4 {
+  color:#3C4109;
+  font-family:'Lato', sans-serif;
+}
+.service-modal .modal-header {
+  border-radius:3px 3px 0px 0px;
+}
+.service-modal .modal-body {
+  border-radius:0px 0px 3px 3px;
+}
+.service-modal-text p {
+  line-height:25px;
+  font-size:16px;
+  margin-bottom:15px;
+}
+.service-modal img {
+  margin-bottom:10px;
+}
+
+.modal-dialog {
+  background:#FFF;
+}
+
+div.modal-body > div.img-wrap.hidden-xs.hidden-sm {
+  text-align:center;
+}

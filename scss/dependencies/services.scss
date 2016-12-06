@@ -1,0 +1,237 @@
+#services-top {
+  padding-top:30px;
+  padding-top:10px;
+  background:#3C4109;
+}
+#services-top h3 {
+  color:#DBC151;
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+#services-top p {
+  color:#FFF;
+  font-size:16px;
+  line-height:25px;
+}
+
+#services-top p a {
+  color:#F57423;
+  text-decoration:underline;
+}
+
+#services > div > div > div:nth-child(1) {
+  background-image:url('../images/services/cosmetic.jpg');
+  background-size:cover;
+  height:585px;
+}
+
+#services > div > div > div:nth-child(2) {
+  background-image:url('../images/services/implant.jpg');
+  background-size:cover;
+  height:585px;
+}
+
+#services {
+  background:#899418;
+}
+
+#services h3 {
+  font-size:42px;
+  font-family: 'Lato', sans-serif;
+  font-weight:900;
+  color: #FFF6CD;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  margin-bottom:10px;
+}
+
+#services p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 20px;
+}
+
+#services > div > div:nth-child(1) > h3 {
+  padding-left:15px;
+}
+
+#services > div > div:nth-child(1) > p {
+  padding-left:15px;
+}
+
+body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .portfolio-item:hover .portfolio-image img, body:not(.device-touch):not(.device-xs):not(.device-xxs) .bothsidebar .portfolio-3.portfolio-notitle .portfolio-item:hover .portfolio-image img, body:not(.device-touch):not(.device-xs):not(.device-xxs) .bothsidebar .portfolio-2.portfolio-notitle .portfolio-item:hover .portfolio-image img, body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .iportfolio:hover .portfolio-image img {
+  -webkit-transform:translateY(0%);
+  transform:translateY(0%);
+}
+
+.portfolio-full.portfolio-notitle .portfolio-desc, .portfolio-nomargin.portfolio-notitle .portfolio-desc, #related-portfolio .portfolio-desc {
+  bottom:5px !important;
+}
+
+#related-portfolio div.portfolio-desc {
+  background-color: rgba(32, 36, 0, .36);
+  height:38px;
+}
+
+#services-carousel .img-wrap {
+  display: inline-block;
+  position: relative;
+  &:hover:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.37);
+  }
+  &:hover:after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    color: white;
+    font-size: 60px;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 11;
+  }
+}
+
+#services-carousel .portfolio-desc span {
+  font-family: 'Lato', sans-serif;
+  font-size:24px;
+  font-weight:900;
+  color: #FFF6CD;
+  position:relative;
+  transform:translateY(-50%);
+  height:auto;
+  text-align:center;
+}
+
+#services-carousel .img-wrap {
+  cursor:pointer;
+}
+
+#services-carousel .iportfolio .portfolio-image {
+  background:#FFDE86;
+}
+
+#services-carousel .owl-carousel .owl-nav [class*=owl-] {
+  opacity:inherit !important;
+  background-color:rgba(255,255,255, .31) !important;
+  height:48px;
+  width:48px;
+  border-radius:0;
+}
+
+#related-portfolio > div.owl-nav > div.owl-prev {
+  margin-left:15px;
+}
+
+#related-portfolio > div.owl-nav > div.owl-next {
+  margin-right:15px;
+}
+
+#services-carousel [class^="icon-"] {
+  position:relative;
+  top:-7px;
+  font-size:40px;
+  font-weight:900;
+}
+
+.device-sm #services h3, .device-xs #services h3, .device-xxs #services h3 {
+  margin-top:0;
+}
+
+.wrap-services {
+  position:absolute;
+  bottom:0;
+}
+
+@media (max-width:320px) {
+  .portfolio-full.portfolio-notitle .portfolio-desc, .portfolio-nomargin.portfolio-notitle .portfolio-desc, #related-portfolio .portfolio-desc {
+    bottom:5px !important;
+  }
+}
+
+
+@mixin hover-plus() {
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  &:hover:after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 60px;
+    left: 50%;
+    margin-left: -17px;
+    margin-top: -45px;
+    z-index: 11;
+  }
+  &:hover:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.37);
+  }
+}
+
+#services-carousel {
+  .owl-item {
+    @include hover-plus;
+  }
+  .floating-owl-title {
+    text-align: center;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF6CD;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+#services-carousel .owl-carousel .owl-nav .owl-next {
+  right:18px !important;
+
+}
+
+#services-carousel .owl-carousel .owl-nav .owl-prev {
+  left:18px !important;
+}
+
+#services-carousel [class^="icon-"] {
+  color:#FFF;
+  font-weight:400 !important;
+  top:7px;
+
+}
+
+#services-carousel {
+  border-bottom:3px solid #FFDE86;
+}
+
+.device-md, .device-lg {
+  #services {
+    p {
+      color: #000;
+      text-shadow:0 2px 4px rgba(255, 255, 255, 0.5)
+    }
+  }
+}
+
+.services-carousel {
+  position:relative;
+  z-index:1;
+}
