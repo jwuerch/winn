@@ -26323,6 +26323,130 @@ h4.modal-title {
       #slide-2 h1 {
         font-size: 42px; } }
 
+#meet-the-team {
+  padding: 80px 0;
+  background-image: url("../images/winn-bio.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%; }
+  #meet-the-team h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Lato',sans-serif;
+    color: #304BA0;
+    margin-bottom: 60px; }
+  #meet-the-team h3 {
+    font-weight: 400;
+    font-size: 42px;
+    font-family: 'Merriweather',sans-serif;
+    color: #638EEB;
+    margin-bottom: 60px; }
+  #meet-the-team p {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Lato',sans-serif; }
+
+#team-carousel {
+  transform: rotate(-360deg);
+  background-image: linear-gradient(-180deg, #FFFFFF 3%, #ADD6E9 100%); }
+  #team-carousel .left-icon {
+    background: none;
+    color: #FFF;
+    margin: -18px 0 0 -14px !important; }
+  #team-carousel .icon-plus {
+    color: #FFF;
+    background: none;
+    font-size: 36px;
+    font-weight: 400; }
+  #team-carousel .portfolio-image {
+    border: 4px solid #FFFFFF;
+    box-shadow: 3px 3px 14px 0 rgba(0, 0, 0, 0.5); }
+  #team-carousel h5 {
+    color: #4059A8;
+    font-size: 28px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400; }
+  #team-carousel .owl-carousel .owl-nav [class*=owl-] {
+    opacity: 1 !important; }
+  #team-carousel .owl-prev, #team-carousel .owl-next {
+    background: #4990E2;
+    border-radius: 0;
+    border-color: #4990E2;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    border-width: 0; }
+    #team-carousel .owl-prev:hover, #team-carousel .owl-next:hover {
+      background: #4282CC !important; }
+  #team-carousel .owl-prev {
+    left: -60px; }
+    @media screen and (max-width: 1100px) {
+      #team-carousel .owl-prev {
+        left: -20px; } }
+    @media screen and (max-width: 991px) {
+      #team-carousel .owl-prev {
+        left: -60px; } }
+    @media screen and (max-width: 860px) {
+      #team-carousel .owl-prev {
+        left: -20px; } }
+    @media screen and (max-width: 767px) {
+      #team-carousel .owl-prev {
+        left: -60px; } }
+    @media screen and (max-width: 590px) {
+      #team-carousel .owl-prev {
+        left: -20px; } }
+    #team-carousel .owl-prev i {
+      font-size: 60px;
+      position: relative;
+      top: -5px;
+      left: -2.5px; }
+  #team-carousel .owl-next {
+    right: -60px; }
+    @media screen and (max-width: 1100px) {
+      #team-carousel .owl-next {
+        right: -20px; } }
+    @media screen and (max-width: 991px) {
+      #team-carousel .owl-next {
+        right: -60px; } }
+    @media screen and (max-width: 860px) {
+      #team-carousel .owl-next {
+        right: -20px; } }
+    @media screen and (max-width: 767px) {
+      #team-carousel .owl-next {
+        right: -60px; } }
+    @media screen and (max-width: 590px) {
+      #team-carousel .owl-next {
+        right: -20px; } }
+    #team-carousel .owl-next i {
+      font-size: 60px;
+      position: relative;
+      top: -5px;
+      right: -2.5px; }
+
+.device-md .owl-next {
+  top: 42% !important; }
+
+.device-md .owl-prev {
+  top: 42% !important; }
+
+.device-sm .owl-next {
+  top: 40% !important; }
+
+.device-sm .owl-prev {
+  top: 40% !important; }
+
+.device-xs .owl-next {
+  top: 40% !important; }
+
+.device-xs .owl-prev {
+  top: 40% !important; }
+
+.device-xxs .owl-next {
+  top: 45% !important; }
+
+.device-xxs .owl-prev {
+  top: 45% !important; }
+
 body {
   font-family: "Lato", sans-serif; }
 
