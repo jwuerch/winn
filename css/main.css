@@ -25769,7 +25769,8 @@ Copyright (c) 2014 Daniel Eden
   height: 100px; }
 
 #header-wrap {
-  border-bottom: 2px solid #979797; }
+  border-bottom: 2px solid #979797;
+  height: 102px; }
 
 .device-md .navbar li a {
   padding-left: 10px;
@@ -25902,6 +25903,34 @@ a.social-icon.si-colored {
   font-size: 24px;
   font-weight: 300;
   line-height: 35px !important; }
+
+#phone-slug-1 {
+  background: #4264B1; }
+  #phone-slug-1 .new-hotline, #phone-slug-1 h6 {
+    font-family: "Open Sans", sans-serif;
+    color: #F8E81C;
+    font-size: 17px;
+    font-weight: 400; }
+    #phone-slug-1 .new-hotline a, #phone-slug-1 h6 a {
+      color: #FFF;
+      font-weight: 700;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 36px; }
+      #phone-slug-1 .new-hotline a:hover, #phone-slug-1 h6 a:hover {
+        text-decoration: none; }
+  #phone-slug-1 .old-hotline {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #F8E81C; }
+    @media screen and (max-width: 767px) {
+      #phone-slug-1 .old-hotline {
+        text-transform: capitalize; } }
+    #phone-slug-1 .old-hotline a {
+      color: #F8E81C;
+      font-weight: 400; }
+      #phone-slug-1 .old-hotline a:hover {
+        text-decoration: none; }
 
 /** Contact Modal **/
 .form-error {
@@ -26153,7 +26182,7 @@ h4.modal-title {
   border-bottom: 5px solid #FFF; }
 
 #slide-1 {
-  background-position: 0% 0%; }
+  background-position: 100% 100%; }
   #slide-1 h1 {
     font-size: 76px;
     font-weight: 700;
@@ -26173,6 +26202,47 @@ h4.modal-title {
     font-size: 31px;
     color: #304BA0;
     margin-bottom: 20px; }
+  @media screen and (max-width: 1600px) {
+    #slide-1 h2 {
+      font-size: 54px; }
+    #slide-1 h1 {
+      font-size: 64px;
+      margin-bottom: 5px; } }
+  @media screen and (max-width: 1350px) {
+    #slide-1 h2 {
+      font-size: 40px; }
+    #slide-1 h1 {
+      font-size: 48px; }
+    #slide-1 p {
+      font-size: 18px; }
+    #slide-1 .slider-caption {
+      margin-left: -5%; }
+    #slide-1 .icon-star3 {
+      font-size: 36px; }
+    #slide-1 .star-set {
+      margin-bottom: 0px; } }
+  @media screen and (max-width: 1300px) {
+    #slide-1 .slider-caption {
+      margin-left: -2%; } }
+  @media screen and (max-width: 1250px) {
+    #slide-1 {
+      background-position-x: 95%; }
+      #slide-1 .slider-caption {
+        margin-left: 0%;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 15px;
+        padding-right: 0;
+        width: 350px !important;
+        margin-top: 225px; }
+      #slide-1 .icon-star3 {
+        font-size: 32px; }
+      #slide-1 p {
+        padding-right: 25px;
+        font-size: 16px; }
+      #slide-1 h2 {
+        font-size: 36px; }
+      #slide-1 h1 {
+        font-size: 42px; } }
 
 #slide-2 {
   background-position: 100% 100%; }

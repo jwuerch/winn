@@ -1,5 +1,5 @@
 #slide-1 {
-  background-position:0% 0%;
+  background-position:100% 100%;
   h1 {
     font-size:76px;
     font-weight:700;
@@ -22,6 +22,66 @@
     color:#304BA0;
     margin-bottom:20px;
   }
+  @media screen and (max-width:1600px) {
+    h2 {
+      font-size:54px;
+    }
+    h1 {
+      font-size:64px;
+      margin-bottom:5px;
+    }
+  }
+  @media screen and (max-width:1350px) {
+    h2 {
+      font-size:40px;
+    }
+    h1 {
+      font-size:48px;
+    }
+    p {
+      font-size:18px;
+    }
+    .slider-caption {
+      margin-left:-5%;
+    }
+    .icon-star3 {
+      font-size:36px;
+    }
+    .star-set {
+      margin-bottom:0px;
+    }
+  }
+  @media screen and (max-width:1300px) {
+    .slider-caption {
+      margin-left:-2%;
+    }
+  }
+  @media screen and (max-width:1250px) {
+    .slider-caption {
+      margin-left:0%;
+      background:rgba(255,255,255, .6);
+      padding:15px;
+      padding-right:0;
+      width:350px !important;
+      margin-top:225px;
+    }
+    .icon-star3 {
+      font-size:32px;
+    }
+    p {
+      padding-right:25px;
+      font-size:16px;
+    }
+    h2 {
+      font-size:36px;
+    }
+    h1 {
+      font-size:42px;
+    }
+
+    background-position-x:95%;
+  }
+
 }
 
 #slide-2 {

@@ -68,3 +68,40 @@ $phone-color: #FFF;
   font-weight:300;
   line-height:35px !important;
 }
+
+
+#phone-slug-1 {
+  background:#4264B1;
+  .new-hotline, h6 {
+    font-family: "Open Sans", sans-serif;
+    color:#F8E81C;
+    font-size:17px;
+    font-weight:400;
+    a {
+      color:#FFF;
+      font-weight:700;
+      font-family:'Merriweather', sans-serif;
+      font-size:36px;
+      &:hover {
+        text-decoration:none;
+      }
+
+    }
+  }
+  .old-hotline {
+    font-family:'Lato', sans-serif;
+    font-size:20px;
+    font-weight:400;
+    color:#F8E81C;
+    @media screen and (max-width:767px) {
+      text-transform:capitalize;
+    }
+    a {
+      color:#F8E81C;
+      font-weight:400;
+      &:hover {
+        text-decoration:none;
+      }
+    }
+  }
+}

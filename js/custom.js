@@ -41,4 +41,15 @@
             $('ul.mobile-primary-menu').toggleClass("show");
         }
     });
+
+    $(window).resize(function() {
+        if ($(window).width() < 1200) {
+            $('#slide-2 .slider-caption').removeClass('slider-caption-left').addClass('slider-caption-center');
+            console.log('test');
+        } else {
+            $('#slide-2 .slider-caption').addClass('slider-caption-left').removeClass('slider-caption-center');
+            console.log('test-2');
+        }
+    });
+
 })(jQuery);
