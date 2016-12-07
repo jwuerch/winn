@@ -1,0 +1,60 @@
+#services {
+  padding:50px 0;
+  background:#4264B1;
+  padding-bottom:150px;
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: -0.5px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  }
+  h3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-weight:400;
+    margin-top:30px;
+    margin-bottom:20px;
+  }
+  p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight:400;
+    line-height:24px;
+    a {
+      color:#80D4FF;
+      text-decoration:underline;
+    }
+  }
+  img {
+    border: 4px solid #FFFFFF;
+    box-shadow: 3px 3px 14px 0 rgba(0,0,0,0.50);
+  }
+}
+
+#services-carousel {
+  height:230px;
+  padding-bottom:0;
+  background:url('../images/services-carousel-bg.png');
+  background-repeat:no-repeat;
+  background-position-y:100%;
+  background-size:cover;
+  background-color:#4264B1;
+  .owl-carousel {
+    position:relative;
+    top:-120px;
+  }
+  @media screen and (max-width:991px) {
+    height:180px !important;
+  }
+  @media screen and (max-width:767px) {
+    height:160px !important;
+  }
+  @media screen and (max-width:479px) {
+    height:250px !important;
+  }
+}

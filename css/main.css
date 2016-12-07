@@ -26386,30 +26386,30 @@ h4.modal-title {
     font-size: 18px;
     font-family: 'Lato',sans-serif; }
 
-#team-carousel {
+#team-carousel, #services-carousel {
   padding-bottom: 20px;
   transform: rotate(-360deg);
   background-image: linear-gradient(-180deg, #FFFFFF 3%, #ADD6E9 100%); }
-  #team-carousel .left-icon {
+  #team-carousel .left-icon, #services-carousel .left-icon {
     background: none;
     color: #FFF;
     margin: -18px 0 0 -14px !important; }
-  #team-carousel .icon-plus {
+  #team-carousel .icon-plus, #services-carousel .icon-plus {
     color: #FFF;
     background: none;
     font-size: 36px;
     font-weight: 400; }
-  #team-carousel .portfolio-image {
+  #team-carousel .portfolio-image, #services-carousel .portfolio-image {
     border: 4px solid #FFFFFF;
     box-shadow: 3px 3px 14px 0 rgba(0, 0, 0, 0.5); }
-  #team-carousel h5 {
+  #team-carousel h5, #services-carousel h5 {
     color: #4059A8;
     font-size: 28px;
     font-family: 'Merriweather', sans-serif;
     font-weight: 400; }
-  #team-carousel .owl-carousel .owl-nav [class*=owl-] {
+  #team-carousel .owl-carousel .owl-nav [class*=owl-], #services-carousel .owl-carousel .owl-nav [class*=owl-] {
     opacity: 1 !important; }
-  #team-carousel .owl-prev, #team-carousel .owl-next {
+  #team-carousel .owl-prev, #team-carousel .owl-next, #services-carousel .owl-prev, #services-carousel .owl-next {
     background: #4990E2;
     border-radius: 0;
     border-color: #4990E2;
@@ -26417,48 +26417,48 @@ h4.modal-title {
     width: 50px;
     height: 50px;
     border-width: 0; }
-    #team-carousel .owl-prev:hover, #team-carousel .owl-next:hover {
+    #team-carousel .owl-prev:hover, #team-carousel .owl-next:hover, #services-carousel .owl-prev:hover, #services-carousel .owl-next:hover {
       background: #4282CC !important; }
-  #team-carousel .owl-prev {
+  #team-carousel .owl-prev, #services-carousel .owl-prev {
     left: -60px; }
     @media screen and (max-width: 1100px) {
-      #team-carousel .owl-prev {
+      #team-carousel .owl-prev, #services-carousel .owl-prev {
         left: -20px; } }
     @media screen and (max-width: 991px) {
-      #team-carousel .owl-prev {
+      #team-carousel .owl-prev, #services-carousel .owl-prev {
         left: -60px; } }
     @media screen and (max-width: 860px) {
-      #team-carousel .owl-prev {
+      #team-carousel .owl-prev, #services-carousel .owl-prev {
         left: -20px; } }
     @media screen and (max-width: 767px) {
-      #team-carousel .owl-prev {
+      #team-carousel .owl-prev, #services-carousel .owl-prev {
         left: -60px; } }
     @media screen and (max-width: 590px) {
-      #team-carousel .owl-prev {
+      #team-carousel .owl-prev, #services-carousel .owl-prev {
         left: -20px; } }
-    #team-carousel .owl-prev i {
+    #team-carousel .owl-prev i, #services-carousel .owl-prev i {
       font-size: 60px;
       position: relative;
       top: -5px;
       left: -2.5px; }
-  #team-carousel .owl-next {
+  #team-carousel .owl-next, #services-carousel .owl-next {
     right: -60px; }
     @media screen and (max-width: 1100px) {
-      #team-carousel .owl-next {
+      #team-carousel .owl-next, #services-carousel .owl-next {
         right: -20px; } }
     @media screen and (max-width: 991px) {
-      #team-carousel .owl-next {
+      #team-carousel .owl-next, #services-carousel .owl-next {
         right: -60px; } }
     @media screen and (max-width: 860px) {
-      #team-carousel .owl-next {
+      #team-carousel .owl-next, #services-carousel .owl-next {
         right: -20px; } }
     @media screen and (max-width: 767px) {
-      #team-carousel .owl-next {
+      #team-carousel .owl-next, #services-carousel .owl-next {
         right: -60px; } }
     @media screen and (max-width: 590px) {
-      #team-carousel .owl-next {
+      #team-carousel .owl-next, #services-carousel .owl-next {
         right: -20px; } }
-    #team-carousel .owl-next i {
+    #team-carousel .owl-next i, #services-carousel .owl-next i {
       font-size: 60px;
       position: relative;
       top: -5px;
@@ -26562,6 +26562,59 @@ h4.modal-title {
 
 .owl-carousel .owl-nav [class*=owl-] {
   opacity: 1 !important; }
+
+#services {
+  padding: 50px 0;
+  background: #4264B1;
+  padding-bottom: 150px; }
+  #services h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: -0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+  #services h3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  #services p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 24px; }
+    #services p a {
+      color: #80D4FF;
+      text-decoration: underline; }
+  #services img {
+    border: 4px solid #FFFFFF;
+    box-shadow: 3px 3px 14px 0 rgba(0, 0, 0, 0.5); }
+
+#services-carousel {
+  height: 230px;
+  padding-bottom: 0;
+  background: url("../images/services-carousel-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-size: cover;
+  background-color: #4264B1; }
+  #services-carousel .owl-carousel {
+    position: relative;
+    top: -120px; }
+  @media screen and (max-width: 991px) {
+    #services-carousel {
+      height: 180px !important; } }
+  @media screen and (max-width: 767px) {
+    #services-carousel {
+      height: 160px !important; } }
+  @media screen and (max-width: 479px) {
+    #services-carousel {
+      height: 250px !important; } }
 
 body {
   font-family: "Lato", sans-serif; }
