@@ -161,3 +161,11 @@ $p-color: red;
 .device-xs .section-specials .col-xs-12 p, .device-xxs .section-specials .col-xs-12 p {
   line-height:40px !important;
 }
+
+.device-xxs {
+  #specials {
+    h2 {
+      line-height:50px;
+    }
+  }
+}

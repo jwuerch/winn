@@ -68,3 +68,19 @@
     }
   }
 }
+
+.device-md {
+  #services {
+    h3 {
+      font-size:32px;
+    }
+  }
+}
+
+.device-sm #services h3 {
+  line-height:46px;
+}
+
+.device-xxs #services h3 {
+  font-size:28px;
+}
