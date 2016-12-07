@@ -25970,61 +25970,67 @@ h4.modal-title {
 .section-specials {
   padding-top: 50px;
   padding-bottom: 20px;
-  background: gray;
+  background: url("../images/winn-specials-BG.jpg");
+  background-attachment: fixed;
   background-size: cover; }
 
 .section-specials h2 {
-  margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
   font-size: 48px;
-  color: #674C12;
-  font-weight: 700;
-  line-height: 50px !important; }
+  color: #FFFFFF;
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
 
 .specials-1 {
-  background: #E59908;
-  color: #E59908; }
+  background: #F6A826;
+  color: #F6A826; }
 
 .specials-1.specials-circle {
-  background: #E59908; }
+  background: #F6A826; }
 
 .specials-2 {
-  background: #106547;
-  color: #106547; }
+  background: #9AAD37;
+  color: #9AAD37; }
 
 .specials-2.specials-circle {
-  background: #106547; }
+  background: #9AAD37; }
 
 .specials-3 {
-  background: #52A3BF;
-  color: #52A3BF; }
+  background: #6493D4;
+  color: #6493D4; }
 
 .specials-3.specials-circle {
-  background: #52A3BF; }
+  background: #6493D4; }
 
 .specials-row h5 {
   font-size: 36px;
   color: #FFF;
-  font-weight: 800;
-  line-height: 40px !important; }
+  font-weight: 900;
+  line-height: 40px !important;
+  font-family: 'Lato',sans-serif; }
 
 .specials-row p {
-  color: red;
+  color: #999999;
   font-size: 18px;
   margin-bottom: 0px;
   line-height: 25px !important;
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif; }
 
 .specials-label {
-  font-size: 14px;
-  color: red; }
+  font-size: 16px;
+  color: #999;
+  font-family: 'Merriweather', sans-serif; }
 
 .specials-save {
   font-size: 18px;
   text-transform: uppercase;
   background: none;
   font-family: "Lato", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: 'Lato', sans-serif; }
 
 .section-specials .col-md-4 {
   border-radius: 8px;
@@ -26032,9 +26038,8 @@ h4.modal-title {
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 20px;
-  background: #FFF;
-  margin-bottom: 50px;
-  opacity: .85; }
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: 50px; }
 
 .section-specials .container {
   padding-left: 0;
@@ -26070,7 +26075,8 @@ h4.modal-title {
 .price {
   font-size: 84px;
   color: #FFF;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif; }
 
 .dollar {
   font-size: 36px;
@@ -26347,6 +26353,7 @@ h4.modal-title {
     font-family: 'Lato',sans-serif; }
 
 #team-carousel {
+  padding-bottom: 20px;
   transform: rotate(-360deg);
   background-image: linear-gradient(-180deg, #FFFFFF 3%, #ADD6E9 100%); }
   #team-carousel .left-icon {
