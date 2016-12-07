@@ -26488,6 +26488,36 @@ h4.modal-title {
 .device-xxs .owl-prev {
   top: 45% !important; }
 
+.device-lg #services-carousel .owl-next {
+  top: 31% !important; }
+
+.device-lg #services-carousel .owl-prev {
+  top: 31% !important; }
+
+.device-md #services-carousel .owl-prev {
+  top: 29% !important; }
+
+.device-md #services-carousel .owl-next {
+  top: 29% !important; }
+
+.device-sm #services-carousel .owl-prev {
+  top: 36% !important; }
+
+.device-sm #services-carousel .owl-next {
+  top: 36% !important; }
+
+.device-xs #services-carousel .owl-prev {
+  top: 36% !important; }
+
+.device-xs #services-carousel .owl-next {
+  top: 36% !important; }
+
+.device-xxs #services-carousel .owl-prev {
+  top: 30% !important; }
+
+.device-xxs #services-carousel .owl-next {
+  top: 30% !important; }
+
 #reviews {
   padding: 50px 0;
   background: url("../images/reviews-bg.jpg");

@@ -160,3 +160,59 @@
   }
 
 }
+
+
+.device-lg {
+  #services-carousel {
+    .owl-next {
+      top:31% !important;
+    }
+    .owl-prev {
+      top:31% !important;
+    }
+  }
+}
+
+.device-md {
+  #services-carousel {
+    .owl-prev {
+      top:29% !important;
+    }
+    .owl-next {
+      top:29% !important;
+    }
+  }
+}
+
+.device-sm {
+  #services-carousel {
+    .owl-prev {
+      top:36% !important;
+    }
+    .owl-next {
+      top:36% !important;
+    }
+  }
+}
+
+.device-xs {
+  #services-carousel {
+    .owl-prev {
+      top:36% !important;
+    }
+    .owl-next {
+      top:36% !important;
+    }
+  }
+}
+
+.device-xxs {
+  #services-carousel {
+    .owl-prev {
+      top:30% !important;
+    }
+    .owl-next {
+      top:30% !important;
+    }
+  }
+}
