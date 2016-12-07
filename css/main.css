@@ -25776,7 +25776,7 @@ Copyright (c) 2014 Daniel Eden
   padding-left: 10px;
   padding-right: 10px;
   font-size: 15px; }
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 1100px) {
     .device-md .navbar li a {
       font-size: 14px;
       padding-left: 7px;
@@ -25786,15 +25786,17 @@ Copyright (c) 2014 Daniel Eden
   padding-right: 10px;
   margin-right: 0; }
 
-@media screen and (max-width: 1080px) {
-  #logo img {
-    padding-top: 10px;
-    padding-bottom: 10px; } }
-
-@media screen and (max-width: 991px) {
-  #logo img {
-    padding-top: 2px;
-    padding-bottom: 2px; } }
+#logo img {
+  padding-top: 2px;
+  padding-bottom: 2px; }
+  @media screen and (max-width: 1080px) {
+    #logo img {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
+  @media screen and (max-width: 991px) {
+    #logo img {
+      padding-top: 2px;
+      padding-bottom: 2px; } }
 
 #primary-menu-trigger {
   color: #4264B1;
@@ -25803,8 +25805,11 @@ Copyright (c) 2014 Daniel Eden
   right: 0;
   left: 0; }
 
+ul.mobile-primary-menu {
+  padding: 15px !important; }
+
 #copyrights {
-  background: grey; }
+  background: #4264B1; }
 
 a.social-icon.si-colored:hover {
   text-decoration: none; }
@@ -26451,6 +26456,9 @@ h4.modal-title {
       #slide-2 h1 {
         font-size: 42px; } }
 
+#slider > div > div > a:hover > i {
+  color: #222; }
+
 #meet-the-team {
   padding: 80px 0;
   background-image: url("../images/winn-bio.jpg");
@@ -26763,9 +26771,6 @@ h4.modal-title {
 
 .service-modal img {
   margin-bottom: 10px; }
-
-.modal-dialog {
-  background: #FFF; }
 
 .team-modal .img-wrap {
   text-align: center; }
