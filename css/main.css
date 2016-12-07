@@ -25877,7 +25877,7 @@ a.social-icon.si-colored {
   font-weight: 700; }
 
 .phone-slug .col-sm-6.tleft {
-  border-left: 1px solid #FFF; }
+  border-left: 2px solid #B7A3C8; }
 
 .phone-slug .button {
   margin: 2.5px 0; }
@@ -25904,33 +25904,67 @@ a.social-icon.si-colored {
   font-weight: 300;
   line-height: 35px !important; }
 
-#phone-slug-1 {
+#phone-slug-1, #phone-slug-2 {
   background: #4264B1; }
-  #phone-slug-1 .new-hotline, #phone-slug-1 h6 {
+  #phone-slug-1 div.col-sm-6.tleft, #phone-slug-2 div.col-sm-6.tleft {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  #phone-slug-1 h6, #phone-slug-2 h6 {
+    margin-bottom: 7px; }
+  #phone-slug-1 .new-hotline, #phone-slug-1 h6, #phone-slug-2 .new-hotline, #phone-slug-2 h6 {
     font-family: "Open Sans", sans-serif;
     color: #F8E81C;
     font-size: 17px;
     font-weight: 400; }
-    #phone-slug-1 .new-hotline a, #phone-slug-1 h6 a {
+    #phone-slug-1 .new-hotline a, #phone-slug-1 h6 a, #phone-slug-2 .new-hotline a, #phone-slug-2 h6 a {
       color: #FFF;
       font-weight: 700;
       font-family: 'Merriweather', sans-serif;
       font-size: 36px; }
-      #phone-slug-1 .new-hotline a:hover, #phone-slug-1 h6 a:hover {
+      #phone-slug-1 .new-hotline a:hover, #phone-slug-1 h6 a:hover, #phone-slug-2 .new-hotline a:hover, #phone-slug-2 h6 a:hover {
         text-decoration: none; }
-  #phone-slug-1 .old-hotline {
+  #phone-slug-1 .old-hotline, #phone-slug-2 .old-hotline {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #F8E81C; }
     @media screen and (max-width: 767px) {
-      #phone-slug-1 .old-hotline {
+      #phone-slug-1 .old-hotline, #phone-slug-2 .old-hotline {
         text-transform: capitalize; } }
-    #phone-slug-1 .old-hotline a {
+    #phone-slug-1 .old-hotline a, #phone-slug-2 .old-hotline a {
       color: #F8E81C;
       font-weight: 400; }
-      #phone-slug-1 .old-hotline a:hover {
+      #phone-slug-1 .old-hotline a:hover, #phone-slug-2 .old-hotline a:hover {
         text-decoration: none; }
+
+#phone-slug-2 {
+  background: #FFF; }
+  #phone-slug-2 div.col-sm-6.tleft {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  #phone-slug-2 h6 {
+    color: #638EEB; }
+  #phone-slug-2 .new-hotline a {
+    color: #304BA0; }
+  #phone-slug-2 .old-hotline {
+    margin-top: 0;
+    color: #638EEB; }
+    #phone-slug-2 .old-hotline a {
+      font-weight: 700;
+      color: #638EEB; }
+
+.device-xs #phone-slug-2 p, .device-xxs #phone-slug-2 p {
+  margin-bottom: 10px;
+  margin-top: -10px; }
+
+.device-xs #phone-slug-1 .button, .device-xxs #phone-slug-1 .button {
+  margin-bottom: 0px; }
+
+.device-xs #phone-slug-1 .old-hotline, .device-xxs #phone-slug-1 .old-hotline {
+  line-height: 25px !important; }
+
+.device-xs #phone-slug-1 .new-hotline, .device-xxs #phone-slug-1 .new-hotline {
+  margin-bottom: 15px; }
 
 /** Contact Modal **/
 .form-error {

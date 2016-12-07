@@ -38,7 +38,7 @@ $phone-color: #FFF;
   font-weight:700;
 }
 .phone-slug  .col-sm-6.tleft {
-  border-left:1px solid #FFF;
+  border-left:2px solid #B7A3C8;
 }
 .phone-slug .button {
   margin:2.5px 0;
@@ -70,8 +70,15 @@ $phone-color: #FFF;
 }
 
 
-#phone-slug-1 {
+#phone-slug-1, #phone-slug-2 {
   background:#4264B1;
+  div.col-sm-6.tleft {
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+  h6 {
+    margin-bottom:7px;
+  }
   .new-hotline, h6 {
     font-family: "Open Sans", sans-serif;
     color:#F8E81C;
@@ -79,6 +86,7 @@ $phone-color: #FFF;
     font-weight:400;
     a {
       color:#FFF;
+
       font-weight:700;
       font-family:'Merriweather', sans-serif;
       font-size:36px;
@@ -102,6 +110,51 @@ $phone-color: #FFF;
       &:hover {
         text-decoration:none;
       }
+    }
+  }
+}
+
+#phone-slug-2 {
+  background:#FFF;
+  div.col-sm-6.tleft {
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  h6 {
+    color:#638EEB;
+  }
+  .new-hotline {
+    a {
+      color:#304BA0;
+    }
+  }
+  .old-hotline {
+    margin-top:0;
+    color:#638EEB;
+
+    a {
+      font-weight:700;
+      color:#638EEB;
+    }
+  }
+}
+
+.device-xs, .device-xxs {
+  #phone-slug-2 {
+    p {
+      margin-bottom:10px;
+      margin-top:-10px;
+    }
+  }
+  #phone-slug-1 {
+    .button {
+      margin-bottom:0px;
+    }
+    .old-hotline {
+      line-height:25px !important;
+    }
+    .new-hotline {
+      margin-bottom:15px;
     }
   }
 }
