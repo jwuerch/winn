@@ -78,7 +78,7 @@ p {
   text-decoration:uppercase;
 }
 .button:hover {
-  background:$button-hover
+  background:radial-gradient(50% 228%, #E2943F 1%, #DE611F 100%);
 }
 .content-wrap {
   padding:0;
