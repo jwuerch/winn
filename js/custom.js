@@ -42,14 +42,17 @@
         }
     });
 
-    $(window).resize(function() {
-        if ($(window).width() < 1200) {
-            $('#slide-2 .slider-caption').removeClass('slider-caption-left').addClass('slider-caption-center');
-            console.log('test');
-        } else {
-            $('#slide-2 .slider-caption').addClass('slider-caption-left').removeClass('slider-caption-center');
-            console.log('test-2');
-        }
+
+
+    $(window).load(function() {
+        $('#oc-slider-2').owlCarousel({
+            items: 1,
+            nav: true,
+            loop: true,
+            autoHeight: true,
+            dots: false,
+            navText: ['<i class="icon-angle-left"></i>', '<i class="icon-angle-right"></i>']
+        });
     });
 
 })(jQuery);
