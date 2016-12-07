@@ -38,7 +38,7 @@
 
 #services-carousel {
   height:230px;
-  padding-bottom:0;
+  padding-bottom:20px;
   background:url('../images/services-carousel-bg.png');
   background-repeat:no-repeat;
   background-position-y:100%;
@@ -56,5 +56,15 @@
   }
   @media screen and (max-width:479px) {
     height:250px !important;
+  }
+  h5 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 24px;
+    color: #4264B1;
+  }
+  img {
+    &:hover {
+      cursor:pointer;
+    }
   }
 }

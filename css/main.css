@@ -25817,7 +25817,7 @@ a.social-icon.si-colored {
   color: #FFF;
   font-size: 14px;
   font-weight: 300;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
 .device-xs #copyrights .col_half:last-child, .device-xxs #copyrights .col_half:last-child {
@@ -26147,7 +26147,8 @@ h4.modal-title {
 /** CONTACT **/
 #contact-form-overlay-mini {
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  float: left; }
 
 #contact img {
   margin-bottom: 20px; }
@@ -26220,6 +26221,93 @@ h4.modal-title {
 #google-map {
   height: 100%;
   border-bottom: 5px solid #FFF; }
+
+#contact p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #222222;
+  line-height: 25px;
+  font-weight: 400; }
+
+#contact .p-1 {
+  margin-bottom: 20px; }
+
+#contact .p-2 a {
+  font-size: 16px;
+  color: #4264B1;
+  text-decoration: underline; }
+
+#contact .p-2 {
+  margin-bottom: 20px; }
+
+#contact .p-3 {
+  color: #638EEB;
+  font-size: 17px;
+  font-family: 'Open Sans',sans-serif;
+  margin-bottom: 10px; }
+
+#contact .p-4 {
+  margin-bottom: 20px; }
+
+#contact .p-4 a {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #304BA0; }
+  #contact .p-4 a:hover {
+    text-decoration: none; }
+
+#contact .p-5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: #638EEB;
+  margin-bottom: 30px; }
+  #contact .p-5 a {
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    color: #638EEB; }
+    #contact .p-5 a:hover {
+      text-decoration: none; }
+
+#contact .office-hours {
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  color: #304BA0;
+  letter-spacing: 0;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+#contact .hour {
+  margin-bottom: 3px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px; }
+
+#contact .col-xs-4 {
+  margin-left: 15px; }
+
+#contact .col-xs-8 {
+  margin-left: 11px; }
+
+#contact {
+  max-height: 750px;
+  height: 750px !important; }
+  #contact .button {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px; }
+
+.device-xxs #contact .p-4 a {
+  font-size: 32px; }
+
+.device-xxs #contact .p-5 {
+  font-size: 16px; }
+
+.device-xxs #contact .hour {
+  font-size: 16px; }
 
 #slide-1 {
   background-position: 100% 100%; }
@@ -26495,10 +26583,10 @@ h4.modal-title {
   top: 31% !important; }
 
 .device-md #services-carousel .owl-prev {
-  top: 29% !important; }
+  top: 32% !important; }
 
 .device-md #services-carousel .owl-next {
-  top: 29% !important; }
+  top: 32% !important; }
 
 .device-sm #services-carousel .owl-prev {
   top: 36% !important; }
@@ -26627,7 +26715,7 @@ h4.modal-title {
 
 #services-carousel {
   height: 230px;
-  padding-bottom: 0;
+  padding-bottom: 20px;
   background: url("../images/services-carousel-bg.png");
   background-repeat: no-repeat;
   background-position-y: 100%;
@@ -26645,6 +26733,12 @@ h4.modal-title {
   @media screen and (max-width: 479px) {
     #services-carousel {
       height: 250px !important; } }
+  #services-carousel h5 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 24px;
+    color: #4264B1; }
+  #services-carousel img:hover {
+    cursor: pointer; }
 
 /* Service Modals */
 #services a:hover {

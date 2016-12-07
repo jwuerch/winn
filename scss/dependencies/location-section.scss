@@ -8,6 +8,7 @@ $click-map-color:#846A20;
 #contact-form-overlay-mini {
   padding-top:15px;
   padding-bottom:15px;
+  float:left;
 }
 #contact img {
   margin-bottom:20px;
@@ -82,4 +83,106 @@ $click-map-color:#846A20;
 #google-map {
   height:100%;
   border-bottom:5px solid #FFF;
+}
+
+#contact {
+  p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #222222;
+    line-height: 25px;
+    font-weight:400;
+  }
+  .p-1 {
+    margin-bottom:20px;
+  }
+  .p-2 a {
+    font-size:16px;
+    color:#4264B1;
+    text-decoration:underline;
+  }
+  .p-2 {
+    margin-bottom:20px;
+  }
+  .p-3 {
+    color:#638EEB;
+    font-size:17px;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom:10px;
+  }
+  .p-4 {
+    margin-bottom:20px;
+  }
+  .p-4 a {
+    font-family: 'Merriweather', sans-serif;
+    font-weight:700;
+    font-size: 36px;
+    color: #304BA0;
+    &:hover {
+      text-decoration:none;
+    }
+  }
+  .p-5 {
+    font-family:'Open Sans', sans-serif;
+    font-size:17px;
+    color:#638EEB;
+    margin-bottom:30px;
+    a {
+      font-weight:900;
+      font-family:'Lato', sans-serif;
+      color:#638EEB;
+      &:hover {
+        text-decoration:none;
+      }
+    }
+  }
+  .office-hours {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: #304BA0;
+    letter-spacing: 0;
+    line-height: 25px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:10px;
+  }
+  .hour {
+    margin-bottom:3px;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+    font-size:18px;
+  }
+  .col-xs-4 {
+    margin-left:15px;
+  }
+
+  .col-xs-8 {
+    margin-left:11px;
+  }
+
+}
+
+#contact {
+  max-height:750px;
+  height:750px !important;
+  .button {
+    font-size:18px;
+    text-align:center;
+    padding-left:30px;
+    padding-right:30px;
+  }
+}
+
+.device-xxs {
+  #contact {
+    .p-4 a {
+      font-size:32px;
+    }
+    .p-5 {
+      font-size:16px;
+    }
+    .hour {
+      font-size:16px;
+    }
+  }
 }
