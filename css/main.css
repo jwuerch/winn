@@ -25765,12 +25765,12 @@ Copyright (c) 2014 Daniel Eden
   padding-top: 39px;
   padding-bottom: 39px; }
 
-#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-  height: 100px; }
-
-#header-wrap {
-  border-bottom: 2px solid #979797;
-  height: 102px; }
+@media screen and (min-width: 992px) {
+  #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    height: 100px; }
+  #header-wrap {
+    border-bottom: 2px solid #979797;
+    height: 102px; } }
 
 .device-md .navbar li a {
   padding-left: 10px;
@@ -25807,6 +25807,20 @@ Copyright (c) 2014 Daniel Eden
 
 ul.mobile-primary-menu {
   padding: 15px !important; }
+
+.device-sm #primary-menu-trigger, .device-xs #primary-menu-trigger, .device-xxs #primary-menu-trigger {
+  left: auto;
+  right: 0; }
+
+.device-sm #logo a, .device-xs #logo a, .device-xxs #logo a {
+  float: left; }
+
+.device-sm .header-wrap .container, .device-xs .header-wrap .container, .device-xxs .header-wrap .container {
+  padding: 0; }
+
+.device-xxs #logo img {
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 #copyrights {
   background: #4264B1; }
