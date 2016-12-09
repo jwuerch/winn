@@ -26334,6 +26334,9 @@ h4.modal-title {
 .device-xxs #contact .hour {
   font-size: 16px; }
 
+#contact-form-overlay-mini {
+  border-radius: 3px; }
+
 #slide-1 {
   background-position: 100% 100%; }
   #slide-1 h1 {
