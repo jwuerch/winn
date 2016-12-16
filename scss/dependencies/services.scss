@@ -1,10 +1,10 @@
 #services {
-  padding:50px 0;
+  padding:0;
   background:#4264B1;
-  padding-bottom:150px;
   h2 {
     font-family: 'Lato', sans-serif;
     font-weight:900;
+    padding-top:50px;
     font-size: 48px;
     color: #FFFFFF;
     letter-spacing: -0.5px;
@@ -37,16 +37,9 @@
 }
 
 #services-carousel {
-  height:230px;
-  padding-bottom:20px;
-  background:url('../images/services-carousel-bg.png');
-  background-repeat:no-repeat;
-  background-position-y:100%;
-  background-size:cover;
-  background-color:#4264B1;
+  background:none;
   .owl-carousel {
     position:relative;
-    top:-120px;
   }
   @media screen and (max-width:991px) {
     height:180px !important;
@@ -83,4 +76,51 @@
 
 .device-xxs #services h3 {
   font-size:28px;
+}
+.mask {
+  background:linear-gradient(-180deg, #FFFFFF 3%, #ADD6E9 100%);
+  transform:rotate(180deg);
+  width:100%;
+  position:absolute;
+  height:1050px;
+  bottom:750px;
+  @media (max-width:1200px) {
+    height:950px;
+  }
+  @media(max-width:991px) {
+    height:1000px;
+  }
+  @media (max-width:767px) {
+    height:2100px;
+  }
+  @media (max-width:700px) {
+    height:2050px;
+  }
+  @media (max-width:600px) {
+    height:2000px;
+  }
+  @media (max-width:400px) {
+    height:1950px;
+  }
+}
+
+#services > div > div.container > div.row > div:nth-child(2) > p, #services > div > div.container > div.row > div:nth-child(1) > p {
+  color:#000;
+}
+
+#services > div > div.container > div.row > div:nth-child(2) > h3, #services > div > div.container > div.row > div:nth-child(1) > h3 {
+  color:#4264B1;
+}
+
+.device-sm {
+  #services {
+    padding-bottom:180px;
+  }
+}
+.device-xs #services {
+  padding-bottom:140px;
+}
+
+.device-xxs #services {
+  padding-bottom:125px;
 }

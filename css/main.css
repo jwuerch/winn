@@ -26337,6 +26337,10 @@ h4.modal-title {
 #contact-form-overlay-mini {
   border-radius: 3px; }
 
+@media (max-width: 991px) {
+  #contact {
+    background: #FFF; } }
+
 #slide-1 {
   background-position: 100% 100%; }
   #slide-1 h1 {
@@ -26358,38 +26362,43 @@ h4.modal-title {
     font-size: 31px;
     color: #304BA0;
     margin-bottom: 20px; }
+  #slide-1 .slider-caption {
+    margin-left: -15%; }
   @media screen and (max-width: 1600px) {
-    #slide-1 h2 {
-      font-size: 54px; }
-    #slide-1 h1 {
-      font-size: 64px;
-      margin-bottom: 5px; } }
-  @media screen and (max-width: 1350px) {
-    #slide-1 h2 {
-      font-size: 40px; }
-    #slide-1 h1 {
-      font-size: 48px; }
-    #slide-1 p {
-      font-size: 18px; }
     #slide-1 .slider-caption {
-      margin-left: -5%; }
-    #slide-1 .icon-star3 {
-      font-size: 36px; }
-    #slide-1 .star-set {
-      margin-bottom: 0px; } }
+      margin-left: -10%; }
+    #slide-1 h2 {
+      font-size: 58px; }
+    #slide-1 h1 {
+      font-size: 68px;
+      margin-bottom: 5px; } }
+  @media screen and (max-width: 1450px) {
+    #slide-1 {
+      background-position-x: 85%; }
+      #slide-1 h2 {
+        font-size: 44px; }
+      #slide-1 h1 {
+        font-size: 52px; }
+      #slide-1 p {
+        font-size: 20px; }
+      #slide-1 .slider-caption {
+        margin-left: -5%; }
+      #slide-1 .icon-star3 {
+        font-size: 36px; }
+      #slide-1 .star-set {
+        margin-bottom: 0px; } }
   @media screen and (max-width: 1300px) {
     #slide-1 .slider-caption {
       margin-left: -2%; } }
   @media screen and (max-width: 1250px) {
     #slide-1 {
-      background-position-x: 95%; }
+      max-height: 600px;
+      background-position-x: 85%; }
       #slide-1 .slider-caption {
         margin-left: 0%;
-        background: rgba(255, 255, 255, 0.6);
         padding: 15px;
         padding-right: 0;
-        width: 350px !important;
-        margin-top: 225px; }
+        width: 350px !important; }
       #slide-1 .icon-star3 {
         font-size: 32px; }
       #slide-1 p {
@@ -26436,51 +26445,55 @@ h4.modal-title {
   #slide-2 .star-set {
     margin-bottom: 10px; }
   #slide-2 .author {
-    margin-left: 25px; }
-  @media screen and (max-width: 1600px) {
+    margin-left: 35px; }
+  @media screen and (max-width: 1670px) {
     #slide-2 h2 {
       font-size: 54px; }
     #slide-2 h1 {
       font-size: 64px;
       margin-bottom: 5px; } }
-  @media screen and (max-width: 1350px) {
+  @media screen and (max-width: 1470px) {
+    #slide-2 {
+      background-position-x: 90%; } }
+  @media screen and (max-width: 1400px) {
     #slide-2 h2 {
-      font-size: 40px; }
+      font-size: 44px; }
     #slide-2 h1 {
-      font-size: 48px; }
+      font-size: 52px; }
     #slide-2 p {
-      font-size: 18px; }
+      font-size: 20px; }
     #slide-2 .slider-caption {
-      margin-left: -5%; }
+      margin-left: -3%; }
     #slide-2 .icon-star3 {
       font-size: 36px; }
     #slide-2 .star-set {
       margin-bottom: 0px; } }
-  @media screen and (max-width: 1300px) {
-    #slide-2 .slider-caption {
-      margin-left: -2%; } }
   @media screen and (max-width: 1250px) {
     #slide-2 {
-      background-position-x: 95%; }
+      max-height: 600px; }
       #slide-2 .slider-caption {
-        margin-left: 0%;
-        background: rgba(255, 255, 255, 0.6);
+        margin-left: 0;
         padding: 15px;
         padding-right: 0;
-        width: 420px !important;
-        margin-top: 225px; }
+        width: 420px !important; }
       #slide-2 .icon-star3 {
-        font-size: 32px; }
+        font-size: 40px; }
       #slide-2 p {
         padding-right: 25px;
-        font-size: 16px; }
+        font-size: 18px; }
       #slide-2 h2 {
-        font-size: 36px; }
+        font-size: 40px; }
       #slide-2 h1 {
-        font-size: 42px; } }
+        font-size: 44px; } }
 
 #slider > div > div > a:hover > i {
   color: #222; }
+
+.swiper-container, #slider {
+  max-height: 800px; }
+  @media screen and (max-width: 1250px) {
+    .swiper-container, #slider {
+      max-height: 600px; } }
 
 #meet-the-team {
   padding: 80px 0;
@@ -26745,12 +26758,12 @@ h4.modal-title {
   opacity: 1 !important; }
 
 #services {
-  padding: 50px 0;
-  background: #4264B1;
-  padding-bottom: 150px; }
+  padding: 0;
+  background: #4264B1; }
   #services h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+    padding-top: 50px;
     font-size: 48px;
     color: #FFFFFF;
     letter-spacing: -0.5px;
@@ -26777,16 +26790,9 @@ h4.modal-title {
     box-shadow: 3px 3px 14px 0 rgba(0, 0, 0, 0.5); }
 
 #services-carousel {
-  height: 230px;
-  padding-bottom: 20px;
-  background: url("../images/services-carousel-bg.png");
-  background-repeat: no-repeat;
-  background-position-y: 100%;
-  background-size: cover;
-  background-color: #4264B1; }
+  background: none; }
   #services-carousel .owl-carousel {
-    position: relative;
-    top: -120px; }
+    position: relative; }
   @media screen and (max-width: 991px) {
     #services-carousel {
       height: 180px !important; } }
@@ -26811,6 +26817,47 @@ h4.modal-title {
 
 .device-xxs #services h3 {
   font-size: 28px; }
+
+.mask {
+  background: linear-gradient(-180deg, #FFFFFF 3%, #ADD6E9 100%);
+  transform: rotate(180deg);
+  width: 100%;
+  position: absolute;
+  height: 1050px;
+  bottom: 750px; }
+  @media (max-width: 1200px) {
+    .mask {
+      height: 950px; } }
+  @media (max-width: 991px) {
+    .mask {
+      height: 1000px; } }
+  @media (max-width: 767px) {
+    .mask {
+      height: 2100px; } }
+  @media (max-width: 700px) {
+    .mask {
+      height: 2050px; } }
+  @media (max-width: 600px) {
+    .mask {
+      height: 2000px; } }
+  @media (max-width: 400px) {
+    .mask {
+      height: 1950px; } }
+
+#services > div > div.container > div.row > div:nth-child(2) > p, #services > div > div.container > div.row > div:nth-child(1) > p {
+  color: #000; }
+
+#services > div > div.container > div.row > div:nth-child(2) > h3, #services > div > div.container > div.row > div:nth-child(1) > h3 {
+  color: #4264B1; }
+
+.device-sm #services {
+  padding-bottom: 180px; }
+
+.device-xs #services {
+  padding-bottom: 140px; }
+
+.device-xxs #services {
+  padding-bottom: 125px; }
 
 /* Service Modals */
 #services a:hover {
